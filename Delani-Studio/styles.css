@@ -1,0 +1,248 @@
+.container{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro', serif;
+    font-size: 22px;
+    overflow: visible;
+  }
+  .image{
+    height: 100%;
+   background-image: url(assets/logo/12.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+  }
+  #mouse-click{
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 30px; 
+    /* animation-iteration-count: infinite; */
+  }
+  #mouse-click {
+    animation: bounce 2s infinite;
+  }
+  .about{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top:40px;
+    font-family: 'Copse', serif;
+    color: black;
+  }
+  #about{
+    font-family: 'Gabriela', serif;
+  }
+  .services{
+    text-align: center;
+    background-image: url();
+    color:black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Copse', serif;
+    font-size: 18px;
+  }
+  .services h2{
+    font-family: 'Gabriela', serif;
+    
+  } 
+.col-md-4{
+  padding: 100px;
+  margin-top: 20px;
+}
+  .container-two{
+    font-family: 'Quattrocento', serif;
+    color:black;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Gabriela', serif;
+  }
+  .one{
+    display: flex;
+  }
+ 
+  .col-md-3 img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .portfolio h2{
+    text-align: center;
+    padding-top:40px;
+    font-family: 'Gabriela', serif;
+  }
+  #portfolio-fig{
+    margin-top: 20px;
+  }
+  .text{
+    margin: 0px 10px;
+    margin-top: -6em;
+  }
+  .portfolio-row1, .portfolio-row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .portfolio-row2 {
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  .portfolio-img {
+    height: 150px;
+    width: 190px;
+  }
+
+  .contact{
+    background-image: url(assets/logo/1523.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    /* text-align: center; */
+  }
+  .title{
+    padding: 6px;
+  }
+  .contact h2{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+    text-align: center;
+  }
+  input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: black;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
+  #social {
+    padding-top: 40px;
+    align-content: center;
+}
+
+#social-padding img {
+    padding: 5px;
+}
+@media only screen and (max-width: 425px){
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 16px;
+    padding-top: 20%;
+    font-size: 20px;
+  }
+  .col-md-3 img{
+    width:100%px;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:8%;
+    margin-right: 16%; 
+  }
+  #button{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+  #MERGE0{
+    width: 84%;
+    margin-left: 4%;
+    padding-bottom: 10px;
+  }
+  #MERGE1{
+    width: 100%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+  }
+  #comment{
+    margin-left: 4%;
+    width: 84%;
+  }
+}
+@media only screen and (min-width: 825px){
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 20px;
+    padding-top:30%; 
+  }
+  .col-md-3 img{
+    width: 400px;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:10%;
+    margin-right: 10%; 
+  }
+}
+@media only screen and (min-width: 625px){
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 20px;
+    padding-top:20%; 
+    font-size: 26px;
+  }
+  .col-md-3 img{
+    width: 400px;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:6%;
+    margin-right: 10%; 
+  }
+#form34A{
+  align-content: center;
+  margin-left: 300px;
+  color: white;
+
+}
+}
+h5{
+  color: black;
+}
+
+.column1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.column1 img{
+  width: 80%;
+  padding: 5%;
+}
+.col-two{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.col-two img{
+  width: 80%;
+  padding: 5%;
+}
+
+#job-1-title,#job-2-title,#job-3-title,#job-4-title,#job-5-title,#job-6-title,#job-7-title,#job-8-title{
+display: non;
+    background-color:rgba(44, 36, 36, 0.397);
+    color: white;
+    font-size: 2.6vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-left:11.2%;
+    margin-top: -7.9%;
+    width: 16vw;
+    height: 10vw;
+    text-align: center;
+}
